@@ -43,6 +43,7 @@ grails.project.dependency.resolution = {
     dependencies {
         compile("org.neo4j:neo4j-community:$neo4jVerison")
         compile("org.neo4j:neo4j-rest-graphdb:1.8.RC2")
+        compile(group:"org.neo4j", name:"neo4j-graphviz", version: neo4jVerison)
     }
 
     plugins {

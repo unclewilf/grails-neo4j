@@ -1,4 +1,4 @@
-package rest.form
+package grails.neo4j
 
 class PodController {
 
